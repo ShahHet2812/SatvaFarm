@@ -1,0 +1,14 @@
+# .gitignore
+
+# Ignore the virtual environment folder
+# This line prevents the 'SF_env' directory and all of its contents
+# from being tracked by Git.
+SF_env/
+
+# Ignore large model files that exceed GitHub's size limit
+Backend/core/ImageUpload/cnn_model/plant_disease_model.h5
+
+# You can also add other common files and folders to ignore, for example:
+# __pycache__/
+# *.pyc
+# .DS_Store
